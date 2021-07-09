@@ -1,4 +1,5 @@
-# Open-Closed Principle
+# 2.) Open-Closed Principle
+# "Software entities...should be open for extension, but closed for modification"
 
 from enum import Enum
 

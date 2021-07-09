@@ -1,4 +1,4 @@
-# Single-Responsibility Principle:
+# 1.) Single-Responsibility Principle:
 # If you have a class, it should have a primary responsibility and not take on additional responsibilities
 class Journal:
     def __init__(self):
@@ -15,7 +15,7 @@ class Journal:
     def __str__(self):
         return "\n".join(self.entries)
 
-    # This is additional functionality that breaks SRP
+    # This block is additional functionality that breaks SRP
     # def save(self, filename):
     #     file = open(filename, "w")
     #     file.write(str(self))
